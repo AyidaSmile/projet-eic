@@ -1,0 +1,87 @@
+body{
+     background-color: #F9F3F3;
+}
+.logo{
+    width: 100px;
+    height: 40px;
+}
+ .image{
+    background-image:url(../images/acceuil.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    display: block;
+}
+.ecrit-accroche{
+    width: 350px;
+}
+.ecrit-accroche-second{
+    margin-top: 40px;
+    width: 628px;
+    font-size: 24px;
+}
+.bouton-accroche {
+    text-decoration: none;
+    padding: 25px 40px ;
+}
+.boutton-acroche{
+    margin-top: 40px;
+}
+.service-bar{
+    background-color: #268D72;
+    width: 100%;
+    height: 66px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+}
+    @media only screen and (min-width: 500px) and (max-width: 1200px) {
+        .image {
+            background-image:url(../images/gaz-clean.webp);
+            background-size: cover;
+            background-position: left;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 50vh;
+            display: block;
+        }
+        .ecrit{
+            color: #268D72;
+        }
+    }
+
+  @media screen and (max-width: 500px) {
+    .image {
+        background-image:url(../images/mobile-best-image.webp);
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 50vh;
+        display: block;
+        
+    }
+    .ecrit{
+        color: #268D72;
+    }
+  }
+  .buton-contact{
+    padding: 5px 35px ;
+  }
+  .service-image{
+    background-image:url(../images/service.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    display: block;
+  }
+  .page-service-bar{
+    background-color: #268D72;
+    width: 100%;
+    height: 525px;
+  }
