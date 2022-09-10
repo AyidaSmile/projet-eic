@@ -12,43 +12,17 @@
     <title>Page d'acceuil</title>
 </head>
 <body>
-   <header>
-    <nav class="navbar navbar-expand-lg " style="background-color: #268D72">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./assets/images/loooo.png" class="logo" alt="" srcset=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-white" href="">Acceuil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active text-white" href="#">Services</a>
-            </li>
-           
-            <li class="nav-item">
-              <a class="nav-link active text-white"  href="#">A propos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active text-white "  href="#">Contacts</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <button class="btn btn-outline-light " type="submit">S'inscrire</button>
-            <button class="btn btn-outline-light ms-4" type="submit">connecter</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-   </header>
+   @include('include.header')
    <main>
     {{-- ici notre image d'acceuil et le text d'accroche de la page d'acceuil eic--}}
-    <section class="d-flex align-items-center image">
-      <div class="container aos-init aos-animate text-white fw-bold" style="width: 750px" data-aos="fade-up" data-aos-delay="500">
-        <h1 class="ecrit">Everthing is clean, tout est propre en un clic</h1>
-        <h3 class="ecrit">le prestataire, dont vous avez besoin pour une maison propre  et pour vous offrir un environnement de travail agréable;</h3>
+    <section class="d-flex align-items-center img-fluid image">
+      <div class="container aos-init aos-animate text-white fw-bold" data-aos="fade-up" data-aos-delay="500">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="ecrit">Everthing is clean, tout est propre en un clic</h1>
+            <h3 class="ecrit">le prestataire, dont vous avez besoin pour une maison propre  et pour vous offrir un environnement de travail agréable;</h3>
+          </div>
+        </div>
         <button class=" bg-white boutton-acroche"><a class="bouton-accroche text-success" href="#contacts">Contactez-nous</a></button>
       </div>
     </section>
@@ -65,7 +39,7 @@
         <div class="row">
           <div class="col-md-4 col-sm-6">
             <div class="card mb-4 shadow-sm">
-              <img src="../assets/images/nettoyage.jpg" alt="" class="w-100">
+              <img src="../assets/images/nettoyage.webp" alt="" class="w-100">
               <div class="card-body" style="height: 259.8px">
                 <h1 class="card-title text-center fs-2">Eco Entretien(Pour l'entretien)</h1>.
                 <p class="card-text text-center fw-normal">
@@ -79,7 +53,7 @@
           </div>
           <div class="col-md-4 col-sm-6">
             <div class="card mb-4 shadow-sm">
-              <img src="../assets/images/menage.png" alt="" class="w-100">
+              <img src="../assets/images/menage.webp" alt="" class="w-100">
               <div class="card-body">
                 <h1 class="card-title text-center fs-2">Eco Exclusif(Service à domicile)</h1>.
                 <p class="card-text text-center fw-normal">
