@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {{-- avec laravel pour mettre des liens on ouvre des accollades--}}
-    <link rel="stylesheet" href="{{ asset('assets/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    
 
-    <title>Page d'acceuil</title>
-</head>
-<body>
-   @include('include.header')
+
+   @extends('layouts.app')
+   @section('content')
    <main>
     {{-- ici notre image d'acceuil et le text d'accroche de la page d'acceuil eic--}}
     <section class="d-flex align-items-center img-fluid image">
@@ -35,12 +24,12 @@
             <h1 class="fw-bold " style="color: #268D72">NOS SERVICES</h1>
             <h2 class="text-muted">En un seul clic faites la demande de nos services ou que vous soyez et ou que vous voulez</h2>
       </div>
-      <div class="container py-5">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-4 ">
             <div class="card mb-4 shadow-sm">
               <img src="../assets/images/nettoyage.webp" alt="" class="w-100">
-              <div class="card-body" style="height: 259.8px">
+              <div class="card-body">
                 <h1 class="card-title text-center fs-2">Eco Entretien(Pour l'entretien)</h1>.
                 <p class="card-text text-center fw-normal">
                   Pour assurer au quotidien l'image de vos services et locaux nous mettons à votre disposition des agents compétents.
@@ -51,7 +40,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-4 ">
             <div class="card mb-4 shadow-sm">
               <img src="../assets/images/menage.webp" alt="" class="w-100">
               <div class="card-body">
@@ -65,10 +54,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <img src="../assets/images/formation.jpg" alt="" class="w-100">
-              <div class="card-body" style="height: 259.8px">
+              <div class="card-body">
                 <h1 class="card-title text-center fs-2">Recrutement et Formation des agents</h1>.
                 <p class="card-text text-center fw-normal">
                   Nous offrons une formation de qualité en hygiène et assainissement à nos participants et nous recrutons des agents d'entretiens et des domestiques
@@ -152,57 +141,8 @@
     </section>
    </main>
    {{-- ici le footer de notre page d'acceuil avec nos liens réseaux sociaux --}}
-   <footer>
-    <div class="footer-top text-white" style="background-color: #268D72">
-      <div class="container py-5">
-        <div class="row d-flex justify-content-around">
-          <div class="col-lg-3 col-md-6 footer-contact">
-           <h4>CONTACTS</h4>
-           <p> Quartier Djidjolé, Rue d'évala, <br>
-            Derrière la pharmacie Mathilda.<br>
-            Lomé-Togo.<br><br>
-              <strong>Tel : </strong>93 59 12 29 / 96 00 62 76<br>
-              <strong>Email:</strong> sessoayida@gmail.com<br>
-          </p>
-          </div>
-          <div class="col-lg-3 col-md-6 footer-frequence">
-            <h4>FREQUENCE D'INTERVENTION</h4>
-            <P>Suivant les demandes du client, nous intervenons 7jours/7 et plus fréquement :</P>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i>Journalier ;</li>
-              <li><i class="bx bx-chevron-right"></i>Hebdomadaire ;</li>
-              <li><i class="bx bx-chevron-right"></i>Mensuel ;</li>
-              <li><i class="bx bx-chevron-right"></i>Trimestriel.</li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-6 footer-service">
-            <h4>HORAIRE ET FREQUENCE</h4>
-            <p>Nous nous adaptons à vos horaires et aux contraintes de fonctionnement de vos locaux.
-              C’est pourquoi nous vous proposons des prestations qui couvrent différentes plages horaires :</p>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i>Les horaires de bureaux : 9h - 17h 30 </li>
-              <li><i class="bx bx-chevron-right"></i>Avant ou après les horaires d’ouverture et de fermeture.</li>
-              <li><i class="bx bx-chevron-right"></i> La nuit.</li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>NOS RESEAUX SOCIAUX</h4>
-            <p>Vous pouvez nous contacter via nos différents réseaux sociaux</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter">twitter</i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook">facebook</i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram">instagram</i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i>whatsapp</a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i>linkedin</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-   </footer>
-   
+  
       {{-- copions le script du fichier bundle min js de boostrap ici --}}
     <script src="{{ asset('assets/bootstrap.bundle.min.js') }}"></script>
-</body>
-</html>
+
+    @endsection()

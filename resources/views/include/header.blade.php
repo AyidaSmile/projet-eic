@@ -1,4 +1,4 @@
-<header>
+{{-- <header>
     <nav class="navbar navbar-expand-lg " style="background-color: #268D72">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="./assets/images/loooo.png" class="logo" alt="" srcset=""></a>
@@ -28,4 +28,4 @@
         </div>
       </div>
     </nav>
-   </header>
+   </header> --}}

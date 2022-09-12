@@ -62,10 +62,6 @@
         display: block;
         
     }
-    .ecrit{
-        width: 525px;
-        color: #268D72;
-    }
   }
   .buton-contact{
     padding: 5px 35px ;
@@ -83,13 +79,6 @@
     width: 100%;
     height: 525px;
   }
-  .section-service{
-    height: 1202px;
-    background-color: aliceblue;
-  }
-  .cadre{
-    width: 235px;
-   
-    height: 329px;
-  }
+  
+ 
 

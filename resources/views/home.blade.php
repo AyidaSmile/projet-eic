@@ -1,20 +1,18 @@
 @extends('layouts.app')
-
+ 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Tableau de bord') }}</div>
-
+                <div class="card-header">Dashboard</div>
+ 
                 <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
+                    @if(auth()->user()->is_admin == 1)
+                    <a href="{{url('admin/routes')}}">Admin</a>
+                    @else
+                    <div class=”panel-heading”>Bienvenue à EIC ous êtes bien inscrit!</div>
                     @endif
-
-                    {{ __('Félicitation vous êtes bien inscrit!') }}
                 </div>
             </div>
         </div>
