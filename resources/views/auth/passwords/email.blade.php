@@ -4,8 +4,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Reset Password') }}</div>
+            <div class="card my-5 ">
+                <div class="card-header text-white" style="background-color: #268D72">{{ __('Réinitialiser le mot de passe') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -33,8 +33,8 @@
 
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Send Password Reset Link') }}
+                                <button type="submit" class="btn text-white" style="background-color:#268D72">
+                                    {{ __('Envoyer le lien de réinitialisation du mot de passe') }}
                                 </button>
                             </div>
                         </div>

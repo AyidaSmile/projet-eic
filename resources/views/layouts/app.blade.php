@@ -57,7 +57,7 @@
 
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a href="{{ route('register') }}"><button class="btn btn-outline-light " type="submit">S'inscrire</button></a>
+                                    <a href="{{ route('register') }}"><button class="btn btn-outline-light ms-4" type="submit">S'inscrire</button></a>
                                 </li>
                             @endif
                         @else
@@ -85,6 +85,7 @@
            </header>
         <main >
             @yield('content')
+            {{-- ici un yield correspond au mileu de notre layout app et le yield ('content') montre seulement que c'est ici que le contenu d'une autre page peut rester --}}
         </main>
 
         <footer>

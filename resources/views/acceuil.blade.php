@@ -1,6 +1,9 @@
 
 
    @extends('layouts.app')
+   {{-- LAYOUT APP POUR dire qu'il n'a qu'à hériter des choses du layout app et ici c'est le header et le footer que j'ai mis dans app- à l'intérieure de qui j'ai mis un @yield('content')
+  pour dire que c'est ici que se trouvera le contenu de tout ce qui hériterons de moi}}
+   {{-- ici le section content encadre le contenu de la vue pour qu'il puisse être pris par le layout => à chaque fois qu'une chose hérite du layout il doit être entouré par les sections--}}
    @section('content')
    <main>
     {{-- ici notre image d'acceuil et le text d'accroche de la page d'acceuil eic--}}

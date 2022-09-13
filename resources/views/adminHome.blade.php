@@ -8,7 +8,7 @@
                 <div class="card-header">{{ __('Dashboard') }}</div>
    
                 <div class="card-body">
-                   Bienvenue dans votre tableau de bord!.
+                   Bienvenue chers admin dans votre tableau de bord!.
                 </div>
             </div>
         </div>

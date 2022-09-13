@@ -5,7 +5,9 @@
 
     <main>
       @extends('layouts.app')
+        {{-- LAYOUT APP POUR dire qu'il n'a qu'à hériter des choses du layout app et ici c'est le header et le footer que j'ai mis dans app--}}
 @section('content')
+ {{-- ici le section content encadre le contenu de la vue pour qu'il puisse être pris par le layout => à chaque fois qu'une chose hérite du layout il doit être entouré par les sections--}}
         <section class="d-flex align-items-center service-image">
             <div class="container aos-init aos-animate text-white fw-bold" data-aos="fade-up" data-aos-delay="500">
               <h1 class="ecrit text-center">NOS SERVICES</h1>
