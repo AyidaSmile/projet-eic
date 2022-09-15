@@ -69,6 +69,8 @@ class ClientController extends Controller
     public function edit($id)
     {
         //
+        $clients = Clients::find($id);
+        return view ('clients.edit')->with('clients', $clients);
     }
 
     /**
@@ -81,6 +83,10 @@ class ClientController extends Controller
     public function update(Request $request, $id)
     {
         //
+        $clients = Clients::find($id);
+        $input = $request->all();
+        $clients->update($input);
+        return redirect('clients')->with('flash_message', 'Mis à jour reussi!');
     }
 
     /**
@@ -92,5 +98,7 @@ class ClientController extends Controller
     public function destroy($id)
     {
         //
+        Clients::destroy($id);
+        return redirect('clients')->with('flash_message', 'Suppression reussi!');
     }
 }

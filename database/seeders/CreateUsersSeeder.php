@@ -18,6 +18,7 @@ class CreateUsersSeeder extends Seeder
         $users = [
             [
                'name'=>'Admin User',
+               'surname'=>'Admin User',
                'email'=>'admin@tutsmake.com',
                'type'=>1,
                'password'=> bcrypt('123456'),
@@ -30,6 +31,7 @@ class CreateUsersSeeder extends Seeder
             // ],
             [
                'name'=>'User',
+               'surname'=>'User',
                'email'=>'user@tutsmake.com',
                'type'=>0,
                'password'=> bcrypt('123456'),

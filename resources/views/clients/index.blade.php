@@ -41,9 +41,11 @@
                                     <td>{{ $client->adresse_client }}</td>
                                     <td>
                                         <a href="{{ url('/clients/' . $client->id) }}" title="Voir Client"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true">Voir</i></button></a>
-                                        <a href="" title="Modifier Client"><button class="btn btn-primary btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true">Modifier</i></button></a>
-                                        <form action="" method="POST" accept-charset="UTF-8" style="display: inline">
-                                            <button type="submit" class="btn btn-danger btn-sm" title="Supprimer Client"><i class="fa fa-pencil-square-o" aria-hidden="true">Supprimer</i></button>
+                                        <a href="{{ url('/clients/' . $client->id) . '/edit' }}" title="Modifier Client"><button class="btn btn-primary btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true">Modifier</i></button></a>
+                                        <form action="{{ url('/clients' . '/' . $client->id) }}" method="POST" accept-charset="UTF-8" style="display: inline">
+                                            {{ method_field('DELETE') }}
+                                            {{ csrf_field() }}
+                                            <button type="submit" class="btn btn-danger btn-sm" title="Supprimer Client" onclick="return confirm('Confirmez la suppression?') "><i class="fa fa-pencil-square-o" aria-hidden="true">Supprimer</i></button>
                                         </form>                                        
                                     </td>
                                 </tr>

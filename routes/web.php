@@ -13,13 +13,11 @@ use App\Http\Controllers\ClientController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
 Route::get('/acceuil', function () {
     return view('acceuil');
 });
+
+
 Route::get('/services', function () {
     return view('services');
 });
@@ -47,4 +45,5 @@ Route::middleware(['auth', 'user-access:admin'])->group(function () {
 });
   
 Route::resource('clients', ClientController::class);
+
 
