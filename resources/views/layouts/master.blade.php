@@ -22,14 +22,14 @@
 
 <body class="">
   <div class="wrapper ">
-    <div class="sidebar" style="background-color: #268d72">
+    <div class="sidebar" data-color="green">
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
-    -->
+    -->  <a href="{{ '/acceuil' }}" class="simple-text logo-mini">
+      <img src="../assets/images/loooo.png" class="logo" alt="" srcset="" style="height: 100px">
+    </a>
       <div class="logo">
-        <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-            <img src=".../public/assets/images/loooo.png" class="logo" alt="" srcset="">
-        </a>
+      
      
       </div>
       <div class="sidebar-wrapper" id="sidebar-wrapper">

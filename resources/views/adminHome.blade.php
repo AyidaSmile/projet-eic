@@ -1,4 +1,4 @@
-@extends('layouts.master')
+{{-- @extends('layouts.master')
 
 @section('title')
 Dashboard admin
@@ -10,9 +10,9 @@ Dashboard admin
     <div class="col-md-12">
       <div class="card card-plain">
         <div class="card-header">
-          <h4 class="card-title"> Table on Plain Background</h4>
+          <h4 class="card-title">Tableau de bord admin</h4> --}}
           {{-- <p class="category"> Here is a subtitle for this table</p> --}}
-        </div>
+        {{-- </div>
         <div class="card-body">
           <div class="table-responsive">
             <table class="table">
@@ -36,12 +36,11 @@ Dashboard admin
       </div>
     </div>
   </div> 
-@endsection
+@endsection --}}
 
-@section('scripts')
-@endsection
-
-{{-- @extends('layouts.app')
+{{-- @section('scripts')
+@endsection --}}
+ @extends('layouts.app')
    
 @section('content')
 <div class="container">
@@ -57,4 +56,4 @@ Dashboard admin
         </div>
     </div>
 </div>
-@endsection --}}
+@endsection 

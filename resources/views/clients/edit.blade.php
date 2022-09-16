@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="card" style="margin:20px;">
-        <div class="card-header">Modifier mes informations</div>
+        <div class="card-header text-white" style="background-color: #268D72">Modifier mes informations</div>
     </div>
     <div class="card-body">
        <form action="{{ url('clients/' .$clients->id) }}" method="post">
