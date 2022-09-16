@@ -18,6 +18,8 @@
   <link href="../assets/css/now-ui-dashboard.css?v=1.5.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
+
+
 </head>
 
 <body class="">
@@ -25,12 +27,12 @@
     <div class="sidebar" data-color="green">
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
-    -->  <a href="{{ '/acceuil' }}" class="simple-text logo-mini">
-      <img src="../assets/images/loooo.png" class="logo" alt="" srcset="" style="height: 100px">
-    </a>
+    -->
+    <a href="">
+      <img src="../assets/images/loooo.png" class="logo" alt="" srcset="" style="height: 50px">
+  </a>
       <div class="logo">
-      
-     
+        
       </div>
       <div class="sidebar-wrapper" id="sidebar-wrapper">
         <ul class="nav">
@@ -77,7 +79,7 @@
     </div>
     <div class="main-panel" id="main-panel">
       <!-- Navbar -->
-       <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
+       <nav class="navbar navbar-expand-lg navbar-transparent  navbar-absolute">
         <div class="container-fluid">
           <div class="navbar-wrapper">
             <div class="navbar-toggle">
@@ -115,7 +117,22 @@
                   </p>
                 </a>
               </li>
-              <li class="nav-item dropdown">
+               <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->name }}
+                                </a>
+
+                                    <a class="" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Se déconnecter') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-block">
+                                        @csrf
+                                    </form>
+                            </li>
+              {{-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="now-ui-icons location_world"></i>
                   <p>
@@ -127,7 +144,7 @@
                   <a class="dropdown-item" href="#">Another action</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
-              </li>
+              </li> --}}
               <li class="nav-item">
                 <a class="nav-link" href="#pablo">
                   <i class="now-ui-icons users_single-02"></i>
