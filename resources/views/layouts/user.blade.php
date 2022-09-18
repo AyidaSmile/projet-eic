@@ -28,16 +28,16 @@
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
     -->
-    <a href="">
+    <a href="/acceuil">
       <img src="../assets/images/loooo.png" class="logo" alt="" srcset="" style="height: 50px">
-  </a>
+    </a>
       <div class="logo">
 
       </div>
       <div class="sidebar-wrapper" id="sidebar-wrapper">
         <ul class="nav">
           <li>
-            <a href="dashboardAdmin">
+            <a href="/home">
               <i class="now-ui-icons design_app"></i>
               <p>Tableau de bord</p>
             </a>
@@ -45,26 +45,19 @@
           <li>
             <a href="./icons.html">
               <i class="now-ui-icons users_single-02"></i>
-
               <p>Mes informations</p>
             </a>
           </li>
           <li>
-            <a href="{{ '/listeUtilisateurs' }}">
+            <a href="fgh">
               <i class="now-ui-icons location_map-big"></i>
-              <p>Liste des utilisateurs</p>
+              <p>Mes demandes</p>
             </a>
           </li>
           <li>
-            <a href="./notifications.html">
-              <i class="now-ui-icons ui-1_bell-53"></i>
-              <p>Nouvelles réservations</p>
-            </a>
-          </li>
-          <li>
-            <a href="./user.html">
-              <i class="now-ui-icons education_atom"></i>
-              <p> Réservations éffectuées</p>
+            <a href="/services">
+              <i class="now-ui-icons location_map-big"></i>
+              <p>Faire une autre demande</p>
             </a>
           </li>
         </ul>
@@ -75,15 +68,13 @@
        <nav class="navbar navbar-expand-lg navbar-transparent  navbar-absolute">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <div class="navbar-toggle">
-              <button type="button" class="navbar-toggler">
-                <span class="navbar-toggler-bar bar1"></span>
-                <span class="navbar-toggler-bar bar2"></span>
-                <span class="navbar-toggler-bar bar3"></span>
-              </button>
-            </div>
-
-            <a class="navbar-brand" href="#pablo">Table List</a>
+                <div class="navbar-toggle">
+                    <button type="button" class="navbar-toggler">
+                        <span class="navbar-toggler-bar bar1"></span>
+                        <span class="navbar-toggler-bar bar2"></span>
+                        <span class="navbar-toggler-bar bar3"></span>
+                    </button>
+                </div>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>

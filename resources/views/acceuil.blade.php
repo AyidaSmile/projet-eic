@@ -21,7 +21,7 @@
     {{-- ici la partie service de la page d'acceuil eic --}}
     <section>
       <div class="container-fluid service-bar ">
-     
+
       </div>
       <div class="container-fluid text-center mt-5 ">
             <h1 class="fw-bold " style="color: #268D72">NOS SERVICES</h1>
@@ -38,7 +38,9 @@
                   Pour assurer au quotidien l'image de vos services et locaux nous mettons à votre disposition des agents compétents.
                 </p>
                 <div class="text-center">
-                  <buton type="button" class="text-white bg-success btn btn-sm btn-outline-secondary">En savoir plus</buton>
+                    <a href="/services">
+                        <buton type="button" class="text-white bg-success btn btn-sm btn-outline-secondary">En savoir plus</buton>
+                    </a>
                 </div>
               </div>
             </div>
@@ -52,7 +54,9 @@
                   Nous mettons à votre disposition des femmes de ménage  professionnelle pour vous  rendre la vie plus légère et pllus brillante
                 </p>
                 <div class="text-center">
-                  <buton type="submit" class=" text-white bg-success btn btn-sm btn-outline-secondary">En savoir plus</buton>
+                    <a href="/services">
+                        <buton type="button" class="text-white bg-success btn btn-sm btn-outline-secondary">En savoir plus</buton>
+                    </a>
                 </div>
               </div>
             </div>
@@ -66,7 +70,9 @@
                   Nous offrons une formation de qualité en hygiène et assainissement à nos participants et nous recrutons des agents d'entretiens et des domestiques
                 </p>
                 <div class="text-center">
-                  <buton type="submit" class=" text-white bg-success btn btn-sm btn-outline-secondary">En savoir plus</buton>
+                    <a href="/services">
+                        <buton type="button" class="text-white bg-success btn btn-sm btn-outline-secondary">En savoir plus</buton>
+                    </a>
                 </div>
               </div>
             </div>
@@ -84,7 +90,7 @@
           <div class="col-6 align-items-center">
             <h1 style="color: #268D72" class="text-center">Qui sommes-nous ?</h1>
             <div class=" fw-normal mb-5 text-center fs-4">La société EIC est une société multifonctionnelle spécialisée dans le service de  bio nettioyage, le recrutement, et la formation .</div>
-            <p class="fw-light fs-3 text-center">Nous offrons des services de bio nettoyages des surfaces des locaux, nous recrutons et formons des techniciens d'entretiens de surfaces de locaux pour les 
+            <p class="fw-light fs-3 text-center">Nous offrons des services de bio nettoyages des surfaces des locaux, nous recrutons et formons des techniciens d'entretiens de surfaces de locaux pour les
               entreprises et domiciles. placement des femmes de ménages et garçon de chambre. Nos services sont offert suivant le créneau horaire de nos clients .</p>
               <div class="text-center ">
               <a href="#"><buton type="button" class="text-white bg-success btn btn-sm btn-outline-secondary mt-5" style="padding: 5px 25px">En savoir plus</buton></a>
@@ -103,7 +109,7 @@
       </div>
       <div class="container py-5">
         <div class="row">
-          
+
           <div class="col-6">
             <img src="../assets/images/nous.jpg" alt="" class="w-100" srcset="">
           </div>
@@ -144,7 +150,7 @@
     </section>
    </main>
    {{-- ici le footer de notre page d'acceuil avec nos liens réseaux sociaux --}}
-  
+
       {{-- copions le script du fichier bundle min js de boostrap ici --}}
     <script src="{{ asset('assets/bootstrap.bundle.min.js') }}"></script>
 

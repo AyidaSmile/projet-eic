@@ -14,29 +14,30 @@
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
     <div id="app">
-                    
+
         <header>
             <nav class="navbar navbar-expand-lg " style="background-color: #268D72">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="./assets/images/loooo.png" class="logo" alt="" srcset=""></a>
+                    <a class="navbar-brand" href="/acceuil"><img src="./assets/images/loooo.png" class="logo" alt="" srcset=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                          <a class="nav-link active text-white" href="">Acceuil</a>
+                          <a class="nav-link active text-white" href="/acceuil">Acceuil</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link active text-white" href="#">Services</a>
+                          <a class="nav-link active text-white" href="/services">Services</a>
                         </li>
-                       
+
                         <li class="nav-item">
                           <a class="nav-link active text-white"  href="#">A propos</a>
                         </li>
@@ -132,12 +133,12 @@
                       <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i>linkedin</a>
                     </div>
                   </div>
-        
+
                 </div>
               </div>
             </div>
            </footer>
-           
+
     </div>
     <script src="{{ asset('assets/bootstrap.bundle.min.js') }}"></script>
 </body>
