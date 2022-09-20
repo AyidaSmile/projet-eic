@@ -22,23 +22,28 @@ Liste des utilisateurs
                 <th>Phone</th>
                 <th>Sexe</th>
                 <th>Email</th>
+                <th>Type</th>
                 <th>Modifier</th>
                 <th>Supprimer</th>
               </thead>
               <tbody>
-                <tr>
-                  <td>SESSO</td>
-                  <td>Prenom</td>
-                  <td>Phone</td>
-                  <td>Sexe</td>
-                  <td>Email</td>
-                  <td>
-                    <a href="#" class="btn btn-success">Modifier</a>
-                  </td>
-                  <td>
-                    <a href="#" class="btn btn-danger">Supprimer</a>
-                  </td>
-                </tr>
+               @foreach ($users as $user )
+               <tr>
+                {{-- ici asssurer vous que vos données soit conforme à ceux du model --}}
+                <td>{{ $user->name }}</td>
+                <td>{{ $user->surname }}</td>
+                <td>{{ $user->phone }}</td>
+                <td>{{ $user->sexe }}</td>
+                <td>{{ $user->email }}</td>
+                <td>{{ $user->type }}</td>
+                <td>
+                  <a href="#" class="btn btn-success">Modifier</a>
+                </td>
+                <td>
+                  <a href="#" class="btn btn-danger">Supprimer</a>
+                </td>
+              </tr>
+               @endforeach
               </tbody>
             </table>
           </div>
