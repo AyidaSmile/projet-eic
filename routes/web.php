@@ -50,3 +50,6 @@ Route::middleware(['auth', 'user-access:admin'])->group(function () {
 Route::resource('clients', ClientController::class);
 
 
+Route::get('/Utilisateurs/profil_utilisateur', function () {
+    return view('Utilisateurs.profil_utilisateur');
+});
