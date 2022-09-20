@@ -11,5 +11,5 @@ class Employes extends Model
     use HasFactory;
     protected $table = 'employes';
     protected $primaryKey = 'id';
-    protected $fillable = ['type_client', 'nom', 'adresse', 'email','mobile'];
+    protected $fillable = ['type_employe', 'nom', 'adresse', 'email','mobile'];
 }
