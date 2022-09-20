@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\EmployeController;
 use App\Http\Controllers\Admin\adminHomeController;
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +34,9 @@ All Normal Users Routes List
 --------------------------------------------
 --------------------------------------------*/
 Route::middleware(['auth', 'user-access:user'])->group(function () {
-
+    Route::get('Utilisateurs.profil_utilisateur', function () {
+        return view('Utilisateurs.profil_utilisateur');
+    });
     Route::get('/home', [HomeController::class, 'index'])->name('home');
 });
 /*------------------------------------------
@@ -45,11 +48,16 @@ Route::middleware(['auth', 'user-access:admin'])->group(function () {
 
     Route::get('dashboardAdmin', [HomeController::class, 'dashboardAdmin'])->name('dashboardAdmin');
     Route::get('/listeUtilisateurs', [adminHomeController::class, 'listeUtilisateurs']);
+
+    Route::get('profil_admin', function () {
+        return view('profil_admin');
+    });
+    
 });
 
 Route::resource('clients', ClientController::class);
 
+Route::resource('employes', EmployeController::class);
 
-Route::get('/Utilisateurs/profil_utilisateur', function () {
-    return view('Utilisateurs.profil_utilisateur');
-});
+
+

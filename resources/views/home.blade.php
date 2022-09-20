@@ -41,9 +41,11 @@ Dashboard admin
                             <div class="col-4">
                                 <div class="card">
                                     <div class="card-header">
-                                        <div class="card-title text-primary text-center">
-                                            Mes informations
-                                        </div>
+                                        <a href="Utilisateurs.profil_utilisateur">
+                                            <div class="card-title text-primary text-center">
+                                                Mes informations
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="card-body">
 

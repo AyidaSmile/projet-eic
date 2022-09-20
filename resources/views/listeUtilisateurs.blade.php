@@ -23,8 +23,6 @@ Liste des utilisateurs
                 <th>Sexe</th>
                 <th>Email</th>
                 <th>Type</th>
-                <th>Modifier</th>
-                <th>Supprimer</th>
               </thead>
               <tbody>
                @foreach ($users as $user )
@@ -36,12 +34,6 @@ Liste des utilisateurs
                 <td>{{ $user->sexe }}</td>
                 <td>{{ $user->email }}</td>
                 <td>{{ $user->type }}</td>
-                <td>
-                  <a href="#" class="btn btn-success">Modifier</a>
-                </td>
-                <td>
-                  <a href="#" class="btn btn-danger">Supprimer</a>
-                </td>
               </tr>
                @endforeach
               </tbody>

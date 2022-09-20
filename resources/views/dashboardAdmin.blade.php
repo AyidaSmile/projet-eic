@@ -36,9 +36,11 @@ Dashboard admin
                 <div class="col-3">
                     <div class="card">
                         <div class="card-header">
-                            <div class="card-title text-primary text-center">
-                                Mes informations
-                            </div>
+                            <a href="profil_admin">
+                                <div class="card-title text-primary text-center">
+                                    Mes informations
+                                </div>
+                            </a>
                         </div>
                         <div class="card-body">
 
@@ -67,7 +69,7 @@ Dashboard admin
                     <div class="card">
                         <div class="card-header">
                             <div class="card-title text-primary text-center">
-                                Nouvelles réservations
+                                Les messages
                             </div>
                         </div>
                         <div class="card-body">
@@ -80,7 +82,7 @@ Dashboard admin
                     <div class="card">
                         <div class="card-header">
                             <div class="card-title text-primary text-center">
-                                Réservations éffectuées
+                                Les réservations
                             </div>
                         </div>
                         <div class="card-body">

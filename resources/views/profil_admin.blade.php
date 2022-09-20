@@ -1,9 +1,8 @@
-@extends('layouts.user')
-
+@extends('layouts.master')
 @section('content')
 <div class="container">
     <div class="card" style="margin:20px;">
-        <h1 class="card-header text-dark">Mon profil</h1>
+        <h1 class="card-header text-success text-center">Mon profil</h1>
     
         <div class="card-body text-dark">
             <h5 class="card-title">Nom:  {{ Auth::user()->name }}</h5>

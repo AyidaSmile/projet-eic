@@ -43,7 +43,7 @@
             </a>
           </li>
           <li>
-            <a href="./icons.html">
+            <a href="profil_admin">
               <i class="now-ui-icons users_single-02"></i>
 
               <p>Mes informations</p>
@@ -58,13 +58,13 @@
           <li>
             <a href="./notifications.html">
               <i class="now-ui-icons ui-1_bell-53"></i>
-              <p>Nouvelles réservations</p>
+              <p>Les Messages</p>
             </a>
           </li>
           <li>
             <a href="./user.html">
               <i class="now-ui-icons education_atom"></i>
-              <p> Réservations éffectuées</p>
+              <p>Les réservations</p>
             </a>
           </li>
         </ul>

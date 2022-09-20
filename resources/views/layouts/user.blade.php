@@ -43,7 +43,7 @@
             </a>
           </li>
           <li>
-            <a href="./icons.html">
+            <a href="Utilisateurs.profil_utilisateur">
               <i class="now-ui-icons users_single-02"></i>
               <p>Mes informations</p>
             </a>
