@@ -103,51 +103,7 @@
       </div>
     </section>
     {{-- ici la partie contactez-nous de la page d'acceuil eic --}}
-    <section>
-      <div class="container-fluid service-bar">
-
-      </div>
-      <div class="container py-5">
-        <div class="row">
-
-          <div class="col-6">
-            <img src="../assets/images/nous.jpg" alt="" class="w-100" srcset="">
-          </div>
-
-          <div class="col-6 ml-4 border border-3">
-            <div class="container">
-              <div class="row">
-                <p><h1 class="p-0">Contactez-nous</h1></p>
-              </div>
-              <div class="row">
-                <p class="p-0">Une question, un problème,envie de nous envoyer un message ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous!</p>
-              </div>
-            </div>
-            <form class="row g-3" >
-              <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Nom</label>
-                <input type="email" class="form-control" placeholder="Saisir votre nom">
-              </div>
-              <div class="col-md-6">
-                <label for="inputPassword4" class="form-label">Prenom</label>
-                <input type="password" class="form-control" placeholder="Saisir votre prenom">
-              </div>
-              <div class="col-12">
-                <label for="inputAddress" class="form-label">Email</label>
-                <input type="text" class="form-control" placeholder="Saisir votre email">
-              </div>
-              <div class=" col-12 mb-5">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <div class="col-12 text-center">
-                <button type="submit" class="btn btn-primary buton-contact" style="background-color: #268D72">Envoyer</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+    @include('contact');
    </main>
    {{-- ici le footer de notre page d'acceuil avec nos liens réseaux sociaux --}}
 

@@ -37,7 +37,9 @@ class EmployeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $input = $request->all();
+        Employes::create($input);
+        return redirect('employes')->with('flash_message', 'Employé ajouté!');
     }
 
     /**
@@ -48,7 +50,8 @@ class EmployeController extends Controller
      */
     public function show($id)
     {
-        //
+        $employes = Employes::find($id);
+        return view ('employes.show')->with('employes', $employes);
     }
 
     /**
@@ -59,7 +62,8 @@ class EmployeController extends Controller
      */
     public function edit($id)
     {
-        //
+        $employes = Employes::find($id);
+        return view ('employes.edit')->with('employes', $employes);
     }
 
     /**
@@ -71,7 +75,10 @@ class EmployeController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $employes = Employes::find($id);
+        $input = $request->all();
+        $employes->update($input);
+        return redirect('employes')->with('flash_message', 'Mis à jour reussi!');
     }
 
     /**
@@ -82,6 +89,8 @@ class EmployeController extends Controller
      */
     public function destroy($id)
     {
-        //
+        
+        Employes::destroy($id);
+        return redirect('employes')->with('flash_message', 'Suppression reussi!');
     }
 }

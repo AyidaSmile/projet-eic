@@ -10,7 +10,7 @@ Dashboard admin
     <div class="col-md-12">
       <div class="card card-plain">
         <div class="card-header">
-          <h4 class="card-title text-primary text-center">Tableau de bord</h4>
+          <h1 class="card-title text-primary text-center">Tableau de bord</h1>
           {{-- <p class="category"> Here is a subtitle for this table</p> --}}
         </div>
         <div class="card-body">
@@ -68,9 +68,11 @@ Dashboard admin
                 <div class="col-3">
                     <div class="card">
                         <div class="card-header">
+                           <a href="list_contact">
                             <div class="card-title text-primary text-center">
                                 Les messages
                             </div>
+                           </a>
                         </div>
                         <div class="card-body">
 
@@ -90,6 +92,19 @@ Dashboard admin
                         </div>
 
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                   <div class="card">
+                    <div class="card-header">
+                        <a href="employes">
+                            <div class="card-title text-primary text-center">
+                                Liste des employés
+                            </div>
+                        </a>
+                    </div>
+                   </div>
                 </div>
             </div>
         </div>

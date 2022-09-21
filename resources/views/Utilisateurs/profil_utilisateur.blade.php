@@ -12,6 +12,9 @@
             <p class="card-text">Sexe:  {{ Auth::user()->sexe }}</p>
             <p class="card-text">Email:  {{ Auth::user()->email }}</p>
         </div>
+        <a href="/home">
+            <button class="btn btn-primary btn-sm">Retour</button>
+        </a>
     </div>
 </div>
 @endsection

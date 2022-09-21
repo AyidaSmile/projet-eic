@@ -21,15 +21,43 @@
 </head>
 <body>
     <div id="app">
+      {{-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarColor01" style="">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> --}}
 
         <header>
-            <nav class="navbar navbar-expand-lg " style="background-color: #268D72">
+            <nav class="navbar navbar-expand-lg fixed-top " style="background-color: #268D72">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/acceuil"><img src="./assets/images/loooo.png" class="logo" alt="" srcset=""></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-collapse collapse" id="navbarColor01">
                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                           <a class="nav-link active text-white" href="/acceuil">Acceuil</a>
@@ -42,7 +70,7 @@
                           <a class="nav-link active text-white"  href="#">A propos</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link active text-white "  href="#">Contacts</a>
+                          <a class="nav-link active text-white "  href="page-contact">Contacts</a>
                         </li>
                       </ul>
                     </div>

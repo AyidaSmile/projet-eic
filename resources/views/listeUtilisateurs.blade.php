@@ -38,6 +38,9 @@ Liste des utilisateurs
                @endforeach
               </tbody>
             </table>
+            <a href="/dashboardAdmin">
+              <button class="btn btn-primary btn-sm">Retour</button>
+          </a>
           </div>
         </div>
       </div>

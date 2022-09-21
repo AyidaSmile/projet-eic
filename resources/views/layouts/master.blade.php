@@ -56,7 +56,7 @@
             </a>
           </li>
           <li>
-            <a href="./notifications.html">
+            <a href="list_contact">
               <i class="now-ui-icons ui-1_bell-53"></i>
               <p>Les Messages</p>
             </a>
@@ -65,6 +65,12 @@
             <a href="./user.html">
               <i class="now-ui-icons education_atom"></i>
               <p>Les réservations</p>
+            </a>
+          </li>
+          <li>
+            <a href="employes">
+              <i class="now-ui-icons education_atom"></i>
+              <p>Liste des employés</p>
             </a>
           </li>
         </ul>
@@ -178,11 +184,6 @@
               </li>
             </ul>
           </nav>
-          <div class="copyright" id="copyright">
-            &copy; <script>
-              document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-            </script>, Designed by <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
-          </div>
         </div>
       </footer>
     </div>

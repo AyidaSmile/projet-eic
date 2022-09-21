@@ -4,7 +4,9 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\EmployeController;
+use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\Admin\adminHomeController;
 /*
 |--------------------------------------------------------------------------
@@ -52,12 +54,18 @@ Route::middleware(['auth', 'user-access:admin'])->group(function () {
     Route::get('profil_admin', function () {
         return view('profil_admin');
     });
-    
+    Route::resource('employes', EmployeController::class);
+    Route::get('/list_contact', [ContactsController::class, 'list_contact'])->name('list_contact');
 });
+Route::get('contact', [ContactsController::class, 'create'])->name('contact.create');
+Route::post('contact', [ContactsController::class, 'store'])->name('contact.store');
 
-Route::resource('clients', ClientController::class);
-
-Route::resource('employes', EmployeController::class);
+Route::get('/message', function () {
+    return view('message');
+});
+Route::get('/page-contact', function () {
+    return view('page-contact');
+});
 
 
 

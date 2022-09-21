@@ -70,9 +70,11 @@ Dashboard admin
                             <div class="col-4">
                                 <div class="card">
                                     <div class="card-header">
-                                        <div class="card-title text-primary text-center">
-                                            Faire une autre demande
-                                        </div>
+                                        <a href="home">
+                                            <div class="card-title text-primary text-center">
+                                                Faire une autre demande
+                                            </div>
+                                        </a>
                                     </div>
                                     <div class="card-body">
 
