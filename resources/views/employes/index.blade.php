@@ -1,4 +1,5 @@
-@extends('employes.layout')
+{{-- @extends('employes.layout') --}}
+@extends('layouts.master')
 
  
 @section('content')
@@ -6,11 +7,11 @@
     <div class="row" style="margin:20px;">
         <div class="col-12">
             <div class="card">
-                <div class="card-header text-center text-white bg-success">
+                <div class="card-header text-center text-white" style="background-color: #268D72">
                   <h2>NOS EMPLOYES</h2>
                 </div>
                 <div class="card-body">
-                    <a href="{{ url('/employes/create') }}" class="btn btn-success btn-sm" title="Ajouter un employé">
+                    <a href="{{ url('/employes/create') }}" class="btn  btn-sm " style="background-color: #268D72" title="Ajouter un employé">
                         Ajouter
                     </a>
                     <br>
@@ -51,7 +52,7 @@
                             </tbody>
                         </table>
                         <a href="/dashboardAdmin">
-                            <button class="btn btn-primary btn-sm">Retour</button>
+                            <button class="btn btn-danger btn-sm">Retour</button>
                         </a>
                     </div>
                 </div>

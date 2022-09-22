@@ -45,7 +45,6 @@
           <li>
             <a href="profil_admin">
               <i class="now-ui-icons users_single-02"></i>
-
               <p>Mes informations</p>
             </a>
           </li>
@@ -62,7 +61,7 @@
             </a>
           </li>
           <li>
-            <a href="./user.html">
+            <a href="Utilisateurs.index">
               <i class="now-ui-icons education_atom"></i>
               <p>Les réservations</p>
             </a>
@@ -88,8 +87,6 @@
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-
-            <a class="navbar-brand" href="#pablo">Table List</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>

@@ -12,7 +12,7 @@
             <p class="card-text">Email:  {{ Auth::user()->email }}</p>
         </div>
         <a href="/dashboardAdmin">
-            <button class="btn btn-primary btn-sm">Retour</button>
+            <button class="btn btn-primary mx-5 btn-sm">Retour</button>
         </a>
     </div>
 </div>

@@ -83,9 +83,11 @@ Dashboard admin
                 <div class="col-3">
                     <div class="card">
                         <div class="card-header">
-                            <div class="card-title text-primary text-center">
-                                Les réservations
-                            </div>
+                            <a href="Utilisateurs.index">
+                                <div class="card-title text-primary text-center">
+                                    Les réservations
+                                </div>
+                            </a>
                         </div>
                         <div class="card-body">
 
