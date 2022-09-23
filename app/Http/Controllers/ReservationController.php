@@ -21,6 +21,11 @@ class ReservationController extends Controller
         //  dans la base de donnée et reservations = à la table reservation dans la base de donnée.
         return view ('Utilisateurs.index', compact('reservations', 'users'));
     }
+    public function voirReservation(){
+        $reservations = Reservation::with('user')->get();
+        $users = User::with('reservations')->get();
+        return view ('Utilisateurs.voirReservation', compact('reservations', 'users'));
+    }
 
     public function create()
     {

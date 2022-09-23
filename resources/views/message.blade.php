@@ -13,8 +13,8 @@
                </h3>
             </div>
            <div class="text-center">
-            <a href="/acceuil">
-                <button class="btn btn-danger my-5 btn-sm">Retour</button>
+             <a href="/home">
+                <button class="btn btn-danger btn-sm">Retour</button>
             </a>
            </div>
         </div>
