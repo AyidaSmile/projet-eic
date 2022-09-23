@@ -21,8 +21,8 @@ use App\Http\Controllers\Admin\adminHomeController;
 */
 
 // Ici la route pour la page d'acceuil.
-Route::get('/index', function () {
-    return view('index');
+Route::get('/acceuil', function () {
+    return view('acceuil');
 });
 
 // Ici la route pour la page services
