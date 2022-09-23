@@ -1,15 +1,15 @@
-@extends('Utilisateurs.layou')
+@extends('layouts.master')
 
 @section('content')
 <div class="row" style="margin:20px;">
     <div class="col-12">
         <div class="card">
-            <div class="card-header text-center text-white bg-success">
+            <div class="card-header text-center text-white" style="background-color: #268D72">
               <h2>Liste des reservations</h2>
             </div>
             <div class="card-body">
                 <div class="table-responsive">
-                    <table class="table table-success table-striped">
+                    <table border="2" class="table table-success table-striped">
                         <thead>
                             <tr>
                                 <th>#</th>

@@ -13,7 +13,7 @@
             <p class="card-text">Email:  {{ Auth::user()->email }}</p>
         </div>
         <a href="/home">
-            <button class="btn btn-primary btn-sm">Retour</button>
+            <button class="btn btn-danger btn-sm">Retour</button>
         </a>
     </div>
 </div>

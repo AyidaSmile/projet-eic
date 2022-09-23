@@ -19,7 +19,7 @@ Dashboard admin
                             {{-- pour voir si ça recupère avant meme d'écrire la requette  on fait {{ $contact  }} par exemple
                             . avec $contact le nom de la var déclaré dans le controller--}}
                             {{-- {{ $contact }} --}}
-                            <table class="table table-success table-striped">
+                            <table border="2" class="table table-success table-striped">
                                 <thead>
                                     <tr>
                                         <th>#</th>

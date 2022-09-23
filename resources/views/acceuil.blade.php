@@ -10,12 +10,12 @@
     <section class="d-flex align-items-center img-fluid image">
       <div class="container aos-init aos-animate text-white fw-bold" data-aos="fade-up" data-aos-delay="500">
         <div class="row">
-          <div class="col-12">
-            <h1 class="ecrit">Everthing is clean, tout est propre en un clic</h1>
-            <h3 class="ecrit">le prestataire, dont vous avez besoin pour une maison propre  et pour vous offrir un environnement de travail agréable;</h3>
+          <div class="col-12 w-50">
+            <h1 class="ecrit text-left">Everthing is clean, tout est propre en un clic .</h1>
+            <h3 class="ecrit text-left">le prestataire, dont vous avez besoin pour une maison propre ou un environnement de travail agréable !</h3>
           </div>
         </div>
-        <button class=" bg-white boutton-acroche"><a class="bouton-accroche text-success" href="#contacts">Contactez-nous</a></button>
+        <button class=" bg-white boutton-accroche fs-3 mt-5"><a class="bouton-accroche text-success " href="{{ route('register') }}">Reserver un service</a></button>
       </div>
     </section>
     {{-- ici la partie service de la page d'acceuil eic --}}

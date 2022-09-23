@@ -70,9 +70,9 @@ Dashboard admin
                             <div class="col-4">
                                 <div class="card">
                                     <div class="card-header">
-                                        <a href="home">
+                                        <a href="Utilisateurs.reservation">
                                             <div class="card-title text-primary text-center">
-                                                Faire une autre demande
+                                                Faire une reservation
                                             </div>
                                         </a>
                                     </div>

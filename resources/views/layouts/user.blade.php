@@ -55,9 +55,9 @@
             </a>
           </li>
           <li>
-            <a href="/services">
+            <a href="Utilisateurs.reservation">
               <i class="now-ui-icons location_map-big"></i>
-              <p>Faire une autre demande</p>
+              <p>Faire une reservation</p>
             </a>
           </li>
         </ul>

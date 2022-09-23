@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+
+use auth;
 use App\Models\User;
 use App\Models\Reservation;
 use Illuminate\Http\Request;
@@ -18,6 +20,25 @@ class ReservationController extends Controller
         // Dans la view(vue), users au niveau de compact = à la table users
         //  dans la base de donnée et reservations = à la table reservation dans la base de donnée.
         return view ('Utilisateurs.index', compact('reservations', 'users'));
+    }
+
+    public function create()
+    {
+        return view('Utilisateurs.reservation');
+    }
+    public function store (Request $request){
+        $reservation = new Reservation;
+        $reservation->type_client = $request->type_client;
+        $reservation->nom_structure = $request->nom_structure;
+        $reservation->adresse = $request->adresse;
+        $reservation->ville = $request->ville;
+        $reservation->type_service = $request->type_service;
+        $reservation->details = $request->details;
+        // $reservation->user_id = auth()->user()->id();
+        $reservation->user_id = auth()->id();
+
+        $reservation->save();
+        return view('Utilisateurs.messages');
     }
     // function showData(){
     //     return DB::table('reservations')

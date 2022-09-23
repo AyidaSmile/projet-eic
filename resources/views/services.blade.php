@@ -43,7 +43,7 @@
                                     <p class="fw-light">Pour connaitre le montant des prestations, demandez un devis en ligne.
                                     Pour cela, il vous suffit de remplir les champs obligatoires du formulaire et de nous l’envoyer.</p>
                                     <div class="text-center">
-                                    <a href="{{ ('formulaire') }}">
+                                    <a href="{{ route('register') }}">
                                         <buton type="button" class="text-white bg-success btn btn-sm btn-outline-secondary">Reserver</buton>
                                     </a>
                                     </div>
@@ -58,8 +58,10 @@
                                     <p class="fw-light">Pour connaitre le montant des prestations, demandez un devis en ligne.
                                     Pour cela, il vous suffit de remplir les champs obligatoires du formulaire et de nous l’envoyer.</p>
                                     <div class="text-center">
-                                    <buton type="submit" class=" text-white bg-success btn btn-sm btn-outline-secondary">Reserver</buton>
-                                    </div>
+                                        <a href="{{ route('register') }}">
+                                            <buton type="button" class="text-white bg-success btn btn-sm btn-outline-secondary">Reserver</buton>
+                                        </a>
+                                        </div>
                                 </div>
                                 </div>
                             </div>
@@ -71,7 +73,10 @@
                                     <p class="fw-light">Pour connaitre le montant des prestations, demandez un devis en ligne.
                                     Pour cela, il vous suffit de remplir les champs obligatoires du formulaire et de nous l’envoyer.</p>
                                     <div class="text-center">
+                                        <a href="{{ route('register') }}">
                                     <buton type="submit" class=" text-white bg-success btn btn-sm btn-outline-secondary">Reserver</buton>
+
+                                        </a>
                                     </div>
                                 </div>
                                 </div>
@@ -94,8 +99,10 @@
                                     <p class="fw-light">Pour connaitre le montant des prestations, demandez un devis en ligne.
                                     Pour cela, il vous suffit de remplir les champs obligatoires du formulaire et de nous l’envoyer.</p>
                                     <div class="text-center">
-                                    <buton type="button" class="text-white bg-success btn btn-sm btn-outline-secondary">Reserver</buton>
-                                    </div>
+                                        <a href="{{ route('register') }}">
+                                            <buton type="button" class="text-white bg-success btn btn-sm btn-outline-secondary">Reserver</buton>
+                                        </a>
+                                        </div>
                                 </div>
                                 </div>
                             </div>
@@ -107,8 +114,10 @@
                                     <p class="fw-light">Pour connaitre le montant des prestations, demandez un devis en ligne.
                                     Pour cela, il vous suffit de remplir les champs obligatoires du formulaire et de nous l’envoyer.</p>
                                     <div class="text-center">
-                                    <buton type="submit" class=" text-white bg-success btn btn-sm btn-outline-secondary">Reserver</buton>
-                                    </div>
+                                        <a href="{{ route('register') }}">
+                                            <buton type="button" class="text-white bg-success btn btn-sm btn-outline-secondary">Reserver</buton>
+                                        </a>
+                                        </div>
                                 </div>
                                 </div>
                             </div>
@@ -120,8 +129,10 @@
                                     <p class="fw-light">Pour connaitre le montant des prestations, demandez un devis en ligne.
                                     Pour cela, il vous suffit de remplir les champs obligatoires du formulaire et de nous l’envoyer.</p>
                                     <div class="text-center">
-                                    <buton type="submit" class=" text-white bg-success btn btn-sm btn-outline-secondary">Reserver</buton>
-                                    </div>
+                                        <a href="{{ route('register') }}">
+                                            <buton type="button" class="text-white bg-success btn btn-sm btn-outline-secondary">Reserver</buton>
+                                        </a>
+                                        </div>
                                 </div>
                                 </div>
                             </div>
@@ -140,7 +151,7 @@
                             <img src="../assets/images/recru.webp" class="img-fluid" alt="">
                         </div>
                         <div class="col border border-3">
-                            <h3 class="mt-4">INFORMATION RELATIVE AUX RECRUTEMENTS ET FORMATION A EIC</h3>
+                            <h3 class="mt-4 text-center">INFORMATION RELATIVE AUX RECRUTEMENTS ET FORMATION A EIC</h3>
                             <p>
                                 La rigueur est notre maître-mot : Nous recrutons des agents nettoyeurs et des femmes
                                 ou hommes de ménages en fonction du besoin client.
@@ -153,7 +164,9 @@
                                 etre les meilleurs techniciens en hygiène et assainissement.
                            </p>
                             <div class="container text-center mt-5">
-                            <button class="bg-success text-white">Faire une demande</button>
+                            <a href="page-contact">
+                                <button class="bg-success text-white">Faire une demande</button>
+                            </a>
                             </div>
                         </div>
                         </div>

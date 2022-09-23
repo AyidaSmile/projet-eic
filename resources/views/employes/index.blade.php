@@ -17,7 +17,7 @@
                     <br>
                     <br>
                     <div class="table-responsive">
-                        <table class="table table-success table-striped">
+                        <table border="2" class="table table-success table-striped">
                             <thead>
                                 <tr>
                                     <th>#</th>

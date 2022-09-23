@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
+<div class="container my-5 py-5">
+    <div class="row justify-content-center my-5 py-5">
         <div class="col-md-8">
-            <div class="card my-5">
-                <div class="card-header text-white" style="background-color: #268D72">{{ __('Inscription') }}</div>
-
+            <div class="card my-5 register ">
+                <div class="card-header text-white fs-2" style="background-color: #268D72">{{ __('Inscrivez-vous içi avant de reserver un service!!') }}</div>
+               
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf

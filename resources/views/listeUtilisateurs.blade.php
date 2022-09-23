@@ -9,7 +9,7 @@ Liste des utilisateurs
 <div class="row">
     <div class="col-md-12">
       <div class="card card-plain">
-        <div class="card-header">
+        <div class="card-header text-white" style="background-color: #268D72">
           <h4 class="card-title">Liste des utilisateurs</h4>
           {{-- <p class="category"> Here is a subtitle for this table</p> --}}
         </div>

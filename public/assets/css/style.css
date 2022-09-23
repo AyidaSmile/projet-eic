@@ -12,21 +12,12 @@
     height: 100vh;
     display: block;
 }
-.ecrit-accroche{
-    width: 350px;
-}
-.ecrit-accroche-second{
-    margin-top: 40px;
-    width: 628px;
-    font-size: 24px;
-}
+
 .bouton-accroche {
     text-decoration: none;
-    padding: 25px 40px ;
+    padding: 35px 40px ;
 }
-.boutton-acroche{
-    margin-top: 40px;
-}
+
 .service-bar{
     background-color: #268D72;
     width: 100%;
@@ -81,4 +72,6 @@
   }
   
  
-
+.register{
+    background-color: rgb(189, 212, 207);
+}

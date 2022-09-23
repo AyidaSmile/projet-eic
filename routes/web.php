@@ -88,6 +88,15 @@ Route::get('/message', function () {
 Route::get('/page-contact', function () {
     return view('page-contact');
 });
+Route::get('/Utilisateurs.reservation', function () {
+    return view('Utilisateurs.reservation');
+});
+Route::get('Utilisateurs.reservation', [ReservationController::class, 'create']);
+
+Route::post('Utilisateurs.reservation.store', [ReservationController::class, 'store']);
+Route::get('/Utilisateurs.messages', function () {
+    return view('Utilisateurs.messages');
+});
 
 
 
