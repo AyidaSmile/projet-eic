@@ -28,7 +28,7 @@
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
     -->
-    <a href="/index">
+    <a href="/">
       <img src="../assets/images/loooo.png" class="logo" alt="" srcset="" style="height: 50px">
     </a>
       <div class="logo">
