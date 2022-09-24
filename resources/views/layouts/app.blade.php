@@ -53,14 +53,14 @@
         <header>
             <nav class="navbar navbar-expand-lg fixed-top " style="background-color: #268D72">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/acceuil"><img src="./assets/images/loooo.png" class="logo" alt="" srcset=""></a>
+                    <a class="navbar-brand" href="/index"><img src="./assets/images/loooo.png" class="logo" alt="" srcset=""></a>
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="navbar-collapse collapse" id="navbarColor01">
                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                          <a class="nav-link active text-white" href="/acceuil">Acceuil</a>
+                          <a class="nav-link active text-white" href="/index">Acceuil</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link active text-white" href="/services">Services</a>
