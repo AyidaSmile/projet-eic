@@ -23,6 +23,8 @@
                                 <th>Adresse</th>
                                 <th>Ville</th>
                                 <th>Type de service</th>
+                                <th>Date</th>
+                                <th>Heure</th>
                                 <th>Détails</th>
                             </tr>
                         </thead>
@@ -41,6 +43,8 @@
                             <td>{{ $reservation->adresse}}</td>
                             <td>{{$reservation->ville}}</td>
                             <td>{{ $reservation->type_service}}</td>
+                            <td>{{ $reservation->date}}</td>
+                            <td>{{ $reservation->heure}}</td>
                             <td>{{ $reservation->details}}</td>
                         </tr>
                         @endforeach

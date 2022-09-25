@@ -89,7 +89,7 @@ class EmployeController extends Controller
      */
     public function destroy($id)
     {
-        
+
         Employes::destroy($id);
         return redirect('employes')->with('flash_message', 'Suppression reussi!');
     }

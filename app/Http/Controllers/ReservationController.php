@@ -12,8 +12,8 @@ use App\Http\Controllers\ReservationController;
 class ReservationController extends Controller
 {
     public function index(){
-        // Ici User et Reservation sont les models, reservations et user sont les noms 
-        // des functions contenu dans les # models(reservations = function dans le model User et 
+        // Ici User et Reservation sont les models, reservations et user sont les noms
+        // des functions contenu dans les # models(reservations = function dans le model User et
         // user = function dans model Reservation )
         $reservations = Reservation::with('user')->get();
         $users = User::with('reservations')->get();
@@ -38,6 +38,8 @@ class ReservationController extends Controller
         $reservation->adresse = $request->adresse;
         $reservation->ville = $request->ville;
         $reservation->type_service = $request->type_service;
+        $reservation->date = $request->date;
+        $reservation->heure = $request->heure;
         $reservation->details = $request->details;
         // $reservation->user_id = auth()->user()->id();
         $reservation->user_id = auth()->id();
@@ -52,7 +54,7 @@ class ReservationController extends Controller
         // ->select('reservations.*')
         // Si c'est pour users je fais ça.
         // ->select('users.*')
-        // Si c'est pour afficher quelque chose de spécifique et non tout tu vas faire 
+        // Si c'est pour afficher quelque chose de spécifique et non tout tu vas faire
         // ->where('users.name', 'ABALO') ça pour afficher les info d'ABALO seulement
         // Mais si c'est id tu veux tu fais ce qui suit en bas
         // ->where('users.id', '3')

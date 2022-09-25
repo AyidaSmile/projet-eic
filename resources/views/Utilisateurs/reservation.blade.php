@@ -1,4 +1,4 @@
- {{-- @extends('layouts.app') 
+ {{-- @extends('layouts.app')
 @section('content') --}}
 {{-- <div class="container my-5"> --}}
 
@@ -12,7 +12,7 @@
                                         <option value="Administration">Autre</option>
                                 </select>
                             </div> --}}
-      
+
                 {{-- <div class="form-select-wrapper long ">
                     <select name="" class=" form-control long">
                         <option value="Nettoyage"></option>
@@ -69,7 +69,7 @@
         </a>
         </div>
         <div class="card-body">
-           
+
             <form action="{{ url('Utilisateurs.reservation.store') }}" method="POST">
               {{-- pour la sécurité on met ici csrf_field --}}
               @csrf
@@ -85,7 +85,7 @@
                     <option value="Administration">Autre à préciser dans le champ détails</option>
                 </select>
             </div> <br>
-              
+
                 <label>Nom de l'entreprise ou autre. </label><br>
                 <input type="text" name="nom_structure" id="nom" placeholder="Saisissez aucune si vous reserver en tant que particulier, sinon précisez le nom de la structure pour laquelle vous faites la reservation" class="form-control "><br>
                 <label>Adresse</label><br>
@@ -108,6 +108,10 @@
                         <option value="Ménage">Autre à préciser dans le champ détails</option>
                     </select>
                  </div> <br>
+                 <label>Date</label><br>
+                <input type="date" name="date" id="date" placeholder="Saisir la date" class="form-control"><br>
+                <label>Heure</label><br>
+                <input type="time" name="heure" id="heure" placeholder="Saisir l'heure" class="form-control"><br>
                 <label>Détails</label><br>
                 <textarea class="form-control" name="details" id="details" placeholder="Précisez ici l'heure, la date, et/ou vos préférences au cas ou vous voulez plusieurs prestations ou une prestation spécifique."></textarea>
                 <div>
@@ -115,7 +119,7 @@
                 </div>
             </form>
         </div>
-       
+
     </div>
 </div>
 @endsection
