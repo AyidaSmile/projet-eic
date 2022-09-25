@@ -47,9 +47,11 @@
                         </tbody>
                     </table>
                 </div>
+              <div class="text-center">
                 <a href="/dashboardAdmin">
-                    <button class="btn btn-danger btn-sm">Retour</button>
+                    <button class="btn btn-primary btn-sm">Retour</button>
                 </a>
+              </div>
             </div>
         </div>
     </div>

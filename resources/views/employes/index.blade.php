@@ -1,7 +1,7 @@
 {{-- @extends('employes.layout') --}}
 @extends('layouts.master')
 
- 
+
 @section('content')
 <div class="container">
     <div class="row" style="margin:20px;">
@@ -17,10 +17,10 @@
                     <br>
                     <br>
                     <div class="table-responsive">
-                        <table border="2" class="table table-success table-striped">
+                        <table border="4" class="table table-success table-striped">
                             <thead>
                                 <tr>
-                                    <th>#</th>
+                                    <th>Id</th>
                                     <th>Type d'employé</th>
                                     <th>Nom complet</th>
                                     <th>Adresse</th>
@@ -45,15 +45,17 @@
                                         {{ method_field('DELETE') }}
                                         {{ csrf_field() }}
                                         <button type="submit" class="btn btn-danger btn-sm" title="Supprimer Client" onclick="return confirm('Confirmez la suppression?') "><i class="fa fa-pencil-square-o" aria-hidden="true">Supprimer</i></button>
-                                    </form>  
+                                    </form>
                                 </td>
                             </tr>
                                @endforeach
                             </tbody>
                         </table>
+                       <div class="text-center">
                         <a href="/dashboardAdmin">
-                            <button class="btn btn-danger btn-sm">Retour</button>
+                            <button class="btn btn-primary btn-sm">Retour</button>
                         </a>
+                       </div>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ Liste des utilisateurs
 <div class="row">
     <div class="col-md-12">
       <div class="card card-plain">
-        <div class="card-header text-white" style="background-color: #268D72">
+        <div class="card-header text-white text-center" style="background-color: #268D72">
           <h4 class="card-title">Liste des utilisateurs</h4>
           {{-- <p class="category"> Here is a subtitle for this table</p> --}}
         </div>
@@ -38,9 +38,11 @@ Liste des utilisateurs
                @endforeach
               </tbody>
             </table>
-            <a href="/dashboardAdmin">
-              <button class="btn btn-primary btn-sm">Retour</button>
-          </a>
+           <div class="text-center">
+                <a href="/dashboardAdmin">
+                    <button class="btn btn-primary btn-sm">Retour</button>
+                </a>
+           </div>
           </div>
         </div>
       </div>

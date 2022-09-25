@@ -1,11 +1,11 @@
 <?php
-  
+
 namespace Database\Seeders;
-  
+
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\User;
-  
+
 class CreateUsersSeeder extends Seeder
 {
     /**
@@ -17,11 +17,11 @@ class CreateUsersSeeder extends Seeder
     {
         $users = [
             [
-               'name'=>'Admin User',
-               'surname'=>'Admin User',
-               'phone'=>'Admin User',
-               'sexe'=>'Admin User',
-               'email'=>'admin@tutsmake.com',
+               'name'=>'SESSO',
+               'surname'=>'Papa',
+               'phone'=>'90345158',
+               'sexe'=>'Masculin',
+               'email'=>'admin@papa.com',
                'type'=>1,
                'password'=> bcrypt('123456'),
             ],
@@ -32,16 +32,16 @@ class CreateUsersSeeder extends Seeder
             //    'password'=> bcrypt('123456'),
             // ],
             [
-               'name'=>'User',
-               'surname'=>'User',
-               'phone'=>'User',
-               'sexe'=>'User',
-               'email'=>'user@tutsmake.com',
+               'name'=>'DOUTI',
+               'surname'=>'Maman',
+               'phone'=>'92984504',
+               'sexe'=>'Féminin',
+               'email'=>'user@maman.com',
                'type'=>0,
                'password'=> bcrypt('123456'),
             ],
         ];
-    
+
         foreach ($users as $key => $user) {
             User::create($user);
         }

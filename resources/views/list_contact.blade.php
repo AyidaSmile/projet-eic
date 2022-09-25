@@ -41,9 +41,11 @@ Dashboard admin
                                   @endforeach
                                 </tbody>
                             </table>
+                          <div class="text-center">
                             <a href="/dashboardAdmin">
                                 <button class="btn btn-primary btn-sm">Retour</button>
                             </a>
+                          </div>
                         </div>
                     </div>
                 </div>

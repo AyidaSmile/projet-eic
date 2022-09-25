@@ -105,17 +105,10 @@
               </div>
             </form>
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#pablo">
-                  <i class="now-ui-icons media-2_sound-wave"></i>
-                  <p>
-                    <span class="d-lg-none d-md-block">Stats</span>
-                  </p>
-                </a>
-              </li>
                <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
+                                    {{ Auth::user()->surname }}
                                 </a>
 
                                     <a class="" href="{{ route('logout') }}"
@@ -142,10 +135,10 @@
                 </div>
               </li> --}}
               <li class="nav-item">
-                <a class="nav-link" href="#pablo">
+                <a class="nav-link" href="profil_admin">
                   <i class="now-ui-icons users_single-02"></i>
                   <p>
-                    <span class="d-lg-none d-md-block">Account</span>
+                    <span class="d-lg-none d-md-block">Mon compte</span>
                   </p>
                 </a>
               </li>
