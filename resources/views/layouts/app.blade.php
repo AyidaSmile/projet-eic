@@ -132,12 +132,12 @@
                   </div>
                   <div class="col-lg-3 col-md-6 footer-frequence">
                     <h4>FREQUENCE D'INTERVENTION</h4>
-                    <P>Suivant les demandes du client, nous intervenons 7jours/7 et plus fréquement :</P>
+                    <P>Suivant les demandes du client, nous intervenons 7jours/7 et plus fréquement:</P>
                     <ul>
-                      <li><i class="bx bx-chevron-right"></i>Journalier ;</li>
-                      <li><i class="bx bx-chevron-right"></i>Hebdomadaire ;</li>
-                      <li><i class="bx bx-chevron-right"></i>Mensuel ;</li>
-                      <li><i class="bx bx-chevron-right"></i>Trimestriel.</li>
+                      <li><i class="bx bx-chevron-right"></i>Journalier </li>
+                      <li><i class="bx bx-chevron-right"></i>Hebdomadaire </li>
+                      <li><i class="bx bx-chevron-right"></i>Mensuel </li>
+                      <li><i class="bx bx-chevron-right"></i>Trimestriel</li>
                     </ul>
                   </div>
                   <div class="col-lg-3 col-md-6 footer-service">
@@ -146,19 +146,18 @@
                       C’est pourquoi nous vous proposons des prestations qui couvrent différentes plages horaires :</p>
                     <ul>
                       <li><i class="bx bx-chevron-right"></i>Les horaires de bureaux : 9h - 17h 30 </li>
-                      <li><i class="bx bx-chevron-right"></i>Avant ou après les horaires d’ouverture et de fermeture.</li>
-                      <li><i class="bx bx-chevron-right"></i> La nuit.</li>
+                      <li><i class="bx bx-chevron-right"></i>Avant ou après les horaires d’ouverture et de fermeture</li>
+                      <li><i class="bx bx-chevron-right"></i> La nuit</li>
                     </ul>
                   </div>
                   <div class="col-lg-3 col-md-6 footer-links">
                     <h4>NOS RESEAUX SOCIAUX</h4>
                     <p>Vous pouvez nous contacter via nos différents réseaux sociaux</p>
                     <div class="social-links mt-3">
-                      <a href="#" class="twitter"><i class="bx bxl-twitter">twitter</i></a>
-                      <a href="#" class="facebook"><i class="bx bxl-facebook">facebook</i></a>
-                      <a href="#" class="instagram"><i class="bx bxl-instagram">instagram</i></a>
-                      <a href="#" class="google-plus"><i class="bx bxl-skype"></i>whatsapp</a>
-                      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i>linkedin</a>
+                      <a href="https://twitter.com/SessoAyida" class="twitter"><img src="./assets/images/Twitter.webp" id="icon" alt=""></a>
+                      <a href="https://www.facebook.com/profile.php?id=100075703622354" class="facebook"><img src="./assets/images/facebook.webp" id="icon" alt=""></a>
+                      <a href="https://www.instagram.com/sesso279/" class="instagram"><img src="./assets/images/instagram.webp" id="icon" alt=""></a>
+                      <a href="https://www.linkedin.com/in/ayida-sesso-ab7a66228/" class="linkedin"><img src="./assets/images/linkedin.png" id="icon-linkedin" alt=""></a>
                     </div>
                   </div>
 

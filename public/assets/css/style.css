@@ -51,7 +51,7 @@
         width: 100%;
         height: 50vh;
         display: block;
-        
+
     }
   }
   .buton-contact{
@@ -70,8 +70,17 @@
     width: 100%;
     height: 525px;
   }
-  
- 
+
+
 .register{
     background-color: rgb(189, 212, 207);
 }
+#icon{
+    height: 30px;
+}
+#icon-linkedin{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
