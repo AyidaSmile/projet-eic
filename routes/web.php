@@ -100,7 +100,9 @@ Route::get('/Utilisateurs.messages', function () {
     return view('Utilisateurs.messages');
 });
 // Route::get('Utilisateurs.voirReservation', [ReservationController::class, 'voirReservation']);
-
+Route::get('/layut', function () {
+    return view('layut');
+});
 
 
 
