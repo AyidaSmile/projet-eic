@@ -12,8 +12,8 @@
                 que vous avez renseigné dans le formulaire de contact!
                </h3>
             </div>
-           <div class="text-center">
-             <a href="/home">
+           <div class="text-center mb-5">
+             <a href="/">
                 <button class="btn btn-danger btn-sm">Retour</button>
             </a>
            </div>

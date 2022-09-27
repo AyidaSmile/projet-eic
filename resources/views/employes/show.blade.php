@@ -12,7 +12,7 @@
             <p class="card-text">Email: {{ $employes->email }} </p>
             <p class="card-text">Numero: {{ $employes->mobile}} </p>
         </div>
-        <a href="/dashboardAdmin">
+        <a href="/employes">
             <button type="button" class="btn text-white my-5 ms-5" style="background-color: #268D72">Retour</button>
         </a>
     </div>

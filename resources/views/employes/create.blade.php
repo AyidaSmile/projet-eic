@@ -8,7 +8,7 @@
           <h1> Créer un nouveau Employé</h1>
         </div>
         <div class="mx-5">
-          <a href="/dashboardAdmin">
+          <a href="/employes">
             <button class="btn my-5  btn-danger btn-sm">Retour</button>
           </a>
         </div>
@@ -23,13 +23,13 @@
                 <label>Adresse</label><br>
                 <input type="text" name="adresse" id="adresse" class="form-control"><br>
                 <label>Email</label><br>
-                <input type="text" name="email" id="email" class="form-control"><br>
+                <input type="email" name="email" id="email" class="form-control"><br>
                 <label>Numero</label><br>
-                <input type="text" name="mobile" id="mobile" class="form-control"><br>
+                <input type="number" name="mobile" id="mobile" class="form-control"><br>
                 <input type="submit" value="Enregistrer" class="btn btn-success"><br>
             </form>
         </div>
-      
+
     </div>
 </div>
 @endsection

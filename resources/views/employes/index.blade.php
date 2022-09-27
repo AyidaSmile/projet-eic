@@ -36,7 +36,7 @@
                                 <td>{{ $employe->type_employe }}</td>
                                 <td>{{ $employe->nom }}</td>
                                 <td>{{ $employe->adresse }}</td>
-                                <td>{{ $employe->type_email }}</td>
+                                <td>{{ $employe->email }}</td>
                                 <td>{{ $employe->mobile }}</td>
                                 <td>
                                     <a href="{{ url('/employes/' . $employe->id) }}" title="Voir Employe"><button class="btn btn-success btn-sm"><i class="fa fa-eye" aria-hidden="true">Voir</i></button></a>

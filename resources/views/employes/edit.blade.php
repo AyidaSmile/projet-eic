@@ -6,7 +6,7 @@
     <div class="card" style="margin:20px;">
         <div class="card-header text-white text-center" style="background-color: #268D72"><h1>Modifier les informations</h1></div>
         <div class="mx-5">
-            <a href="/dashboardAdmin">
+            <a href="/employes">
               <button class="btn my-5  btn-danger btn-sm">Retour</button>
             </a>
           </div>

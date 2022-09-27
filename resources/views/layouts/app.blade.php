@@ -67,7 +67,7 @@
                         </li>
 
                         <li class="nav-item">
-                          <a class="nav-link active text-white"  href="#">A propos</a>
+                          <a class="nav-link active text-white"  href="layut">A propos</a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link active text-white "  href="page-contact">Contacts</a>

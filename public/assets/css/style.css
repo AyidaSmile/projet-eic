@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,300&display=swap');
 body{
     background-color: #ffffff;
+    font-family: 'poppins', sans-serif;
 }
 .logo{
     width: 100px;
@@ -38,9 +40,9 @@ body{
             height: 100vh;
             display: block;
         }
-        .ecrit{
+        /* .ecrit{
             color: #ffffff;
-        }
+        } */
     }
 
   @media screen and (max-width: 500px) {
@@ -98,4 +100,13 @@ body{
 }
 .titre{
    margin-top: 50px;
+   }
+   .a-propos{
+    background: rgba(34, 32, 29, 0.4) url(../images/formation.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 110vh;
+    display: block;
    }

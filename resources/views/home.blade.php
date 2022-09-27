@@ -24,7 +24,7 @@
 @extends('layouts.user')
 
 @section('title')
-Dashboard admin
+Dashboard utilisateurs
 @endsection
 
 @section('content')
