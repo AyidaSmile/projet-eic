@@ -48,12 +48,7 @@
               <p>Mes informations</p>
             </a>
           </li>
-          <li>
-            <a href="fgh">
-              <i class="now-ui-icons location_map-big"></i>
-              <p>Mes demandes</p>
-            </a>
-          </li>
+          
           <li>
             <a href="Utilisateurs.reservation">
               <i class="now-ui-icons location_map-big"></i>
@@ -82,7 +77,7 @@
             <span class="navbar-toggler-bar navbar-kebab"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navigation">
-            <form>
+            {{-- <form>
               <div class="input-group no-border">
                 <input type="text" value="" class="form-control" placeholder="Search...">
                 <div class="input-group-append">
@@ -91,7 +86,7 @@
                   </div>
                 </div>
               </div>
-            </form>
+            </form> --}}
             <ul class="navbar-nav">
                <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

@@ -87,7 +87,7 @@
             </div> <br>
 
                 <label>Nom de l'entreprise ou autre. </label><br>
-                <input type="text" name="nom_structure" id="nom" placeholder="Saisissez aucune si vous reserver en tant que particulier, sinon précisez le nom de la structure pour laquelle vous faites la reservation" class="form-control "><br>
+                <input type="text" name="nom_structure" id="nom" placeholder="Saisissez aucune si vous reserver en tant que particulier, sinon précisez le nom de la structure" class="form-control "><br>
                 <label>Adresse</label><br>
                 <input type="text" name="adresse" id="adresse" placeholder="Saisir l'adresse" class="form-control"><br>
                 <label>Ville</label><br>
@@ -109,11 +109,11 @@
                     </select>
                  </div> <br>
                  <label>Date</label><br>
-                <input type="date" name="date" id="date" placeholder="Saisir la date" class="form-control"><br>
+                <input type="date" name="date" id="date" placeholder="Saisir la date pour la prestation" class="form-control"><br>
                 <label>Heure</label><br>
-                <input type="time" name="heure" id="heure" placeholder="Saisir l'heure" class="form-control"><br>
+                <input type="time" name="heure" id="heure" placeholder="Saisir l'heure pour la prestation" class="form-control"><br>
                 <label>Détails</label><br>
-                <textarea class="form-control" name="details" id="details" placeholder="Précisez ici l'heure, la date, et/ou vos préférences au cas ou vous voulez plusieurs prestations ou une prestation spécifique."></textarea>
+                <textarea class="form-control" name="details" id="details" placeholder="Précisez vos préférences au cas ou vous voulez plusieurs prestations ou une prestation spécifique."></textarea>
                 <div>
                     <input type="submit" value="Enregistrer" class="btn btn-success my-5"><br>
                 </div>

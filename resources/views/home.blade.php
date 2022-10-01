@@ -38,7 +38,7 @@ Dashboard utilisateurs
                     </div>
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-6">
                                 <div class="card">
                                     <div class="card-header">
                                         <a href="Utilisateurs.profil_utilisateur">
@@ -53,21 +53,9 @@ Dashboard utilisateurs
 
                                 </div>
                             </div>
-                            <div class="col-4">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <div class="card-title text-primary text-center">
-                                            Mes demandes
-                                        </div>
-                                    </div>
-                                    <div class="card-body">
 
-                                    </div>
 
-                                </div>
-                            </div>
-
-                            <div class="col-4">
+                            <div class="col-6">
                                 <div class="card">
                                     <div class="card-header">
                                         <a href="Utilisateurs.reservation">
