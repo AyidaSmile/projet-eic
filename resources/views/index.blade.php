@@ -9,7 +9,7 @@
     {{-- ici notre image d'acceuil et le text d'accroche de la page d'acceuil eic--}}
     <section class="d-flex align-items-center  image">
       <div class="container text-white fw-bold" data-aos="fade-up" >
-        <div class="row">
+        <div class="row my-5">
           <div class="col-md-12 w-50 mt-5">
             <h1 class="ecrit text-left image-size mt-5">Everthing is clean, tout est propre en un clic .</h1>
             <h3 class="ecrit text-left image-size">le prestataire, dont vous avez besoin pour une maison propre ou un environnement de travail agréable !</h3>
