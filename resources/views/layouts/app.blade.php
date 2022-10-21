@@ -51,7 +51,7 @@
       </nav> --}}
 
         <header>
-            <nav class="navbar navbar-expand-lg fixed-top " style="background-color: #268D72">
+            <nav class="navbar navbar-expand-lg fixed-top mt-5 " style="background-color: #268D72">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="/"><img src="./assets/images/loooo.png" class="logo" alt="" srcset=""></a>
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
