@@ -11,7 +11,12 @@
                         <marquee behavior="" direction="">
                             <h3 class="text-white fw-bold w-50">le prestataire, dont vous avez besoin pour une maison propre  et pour vous offrir un environnement de travail agréable. </h3>
                         </marquee>
-                        <button class=" bg-white boutton-acroche mt-5 m-auto P-2 rounded fs-3"><a class="bouton-accroche text-center text-success " href="page-contact">Contactez-nous</a></button>
+                        <div class="mt-5 fs-1 ">
+                            .
+                        </div>
+                        <div class="w-100 text-center  mt-5">
+                            <button class=" bg-white boutton-acroche P-2 rounded fs-3 "><a class="bouton-accroche text-center pt-5 mt-5 text-success " href="page-contact">Contactez-nous</a></button>
+                        </div>
                     </div>
                     </section>
                     <section>
