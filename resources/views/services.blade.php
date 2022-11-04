@@ -22,7 +22,7 @@
                             <h1 class="mt-5">NOUS OFFRONS TOUTES SORTES DE SERVICES DE NETTOYAGE OU DE MENAGES</h1>
                            </marquee>
                         <p class="mt-5 fs-3">
-                            Pour reserver une prestations, cliquez
+                            Pour reserver une prestation, cliquez
                             sur le boutton reserver, remplissez ensuite les champs obligatoires
                             du formulaire et cliquez sur envoyer. Nous vous enverrons un mail
                             avec tous les détail possibles.
