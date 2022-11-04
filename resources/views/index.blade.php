@@ -11,7 +11,7 @@
       <div class="container text-white fw-bold" data-aos="fade-up" >
         <div class="row my-5">
           <div class="col-md-12 w-50 mt-5">
-            <h1 class="ecrit text-left image-size mt-5">Everthing is clean, tout est propre en un clic .</h1>
+            <h1 class="ecrit text-left image-size mt-5">Everything is clean, tout est propre en un clic .</h1>
             <h3 class="ecrit text-left image-size">le prestataire, dont vous avez besoin pour une maison propre ou un environnement de travail agréable !</h3>
           </div>
         </div>
