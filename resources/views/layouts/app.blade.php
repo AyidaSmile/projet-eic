@@ -154,10 +154,10 @@
                     <h4>NOS RESEAUX SOCIAUX</h4>
                     <p>Vous pouvez nous contacter via nos différents réseaux sociaux</p>
                     <div class="social-links mt-3">
-                      <a href="https://twitter.com/SessoAyida" class="twitter"><img src="./assets/images/Twitter.webp" id="icon" alt=""></a>
-                      <a href="https://www.facebook.com/profile.php?id=100075703622354" class="facebook"><img src="./assets/images/facebook.webp" id="icon" alt=""></a>
-                      <a href="https://www.instagram.com/sesso279/" class="instagram"><img src="./assets/images/instagram.webp" id="icon" alt=""></a>
-                      <a href="https://www.linkedin.com/in/ayida-sesso-ab7a66228/" class="linkedin"><img src="./assets/images/linkedin.png" id="icon-linkedin" alt=""></a>
+                      <a href="https://twitter.com/SessoAyida" target="blank" class="twitter"><img src="./assets/images/Twitter.webp" id="icon" alt=""></a>
+                      <a href="https://www.facebook.com/profile.php?id=100075703622354" target="blank" class="facebook"><img src="./assets/images/facebook.webp" id="icon" alt=""></a>
+                      <a href="https://www.instagram.com/sesso279/" target="blank" class="instagram"><img src="./assets/images/instagram.webp" id="icon" alt=""></a>
+                      <a href="https://www.linkedin.com/in/ayida-sesso-ab7a66228/" target="blank" class="linkedin"><img src="./assets/images/linkedin.png" id="icon-linkedin" alt=""></a>
                     </div>
                   </div>
 
